@@ -1,3 +1,59 @@
-.message__container {
+body {
+    margin: 0;
     display: flex;
+    flex-direction: row;
+}
+
+/* class */
+
+.seccion_principal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.seccion_contactos {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    min-width: 260px;
+    max-width: 400px;
+}
+
+.caja_contacto {
+    height: 7rem;
+    border: solid rgb(190, 190, 190) 1px;
+    display: flex;
+    align-items: center;
+}
+
+.caja_perfil {
+
+}
+
+.caja_nuevo_chat {
+    height: 10rem;
+}
+
+.foto_contacto {
+    height: 5rem;
+    border-radius: 100px;
+    margin: 0 1rem;
+}
+
+.nombre_contacto {
+    font-weight: bold;
+}
+
+.mensaje_contacto {
+
+}
+
+/* id */
+#img_hand {
+    width: 250px;
 }
