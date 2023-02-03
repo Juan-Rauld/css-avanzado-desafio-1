@@ -59,13 +59,13 @@ h1 {
     border: solid #E8ebe4 1.5px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .foto_perfil {
     border-radius: 50%;
-    margin-top: 10px;
     width: 4rem;
+    margin-left: 1rem;
 }
 
 .nombre_usuario {
@@ -100,6 +100,7 @@ h1 {
     display: flex;
     align-items: center;
     border-radius: 2px;
+    padding: 2px 0;
 }
 
 .caja_nuevo_chat {
@@ -121,7 +122,9 @@ h1 {
 }
 
 
-.texto_caja {}
+.texto_caja {
+    margin-right: 10px;
+}
 
 .nombre_contacto {
     font-weight: bold;
@@ -130,7 +133,6 @@ h1 {
 
 .mensaje_contacto {
     font-size: 14px;
-    margin-top: 3px;
 }
 
 .no_leido {
